@@ -19,7 +19,6 @@ export default function WebgiApp(props: any) {
       isAntialiased: false,
     });
 
-    console.log(props);
     viewer.renderer.displayCanvasScaling = Math.min(window.devicePixelRatio, 1);
 
     await addBasePlugins(viewer);
